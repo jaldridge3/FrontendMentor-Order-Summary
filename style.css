@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+.card {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.253);
+    font-family: "Red Hat Display";
+}
+
+.grey-banner {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    padding: 10px 0px 10px 10px;
+    height: 80px;
+    width: 80%;
+    margin: 10px 40px;
+    justify-content: space-between;
+    border-radius: 15px; 
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1,
+p,
+.card {
+    display: block;
+    justify-content: center;
+    margin: 1px auto;
+    text-align: center;
+}
+
+.music-icon,
+.change {
+    display: inline;
+}
+
+.plan-price {
+    display: inline-block;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: grid;
+    place-items: center;
+    grid-auto-rows: 1fr 2rem;
+}
+
+.main-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 40px;
+}
+
+h1, .plan{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+p, .price {
+    font-weight: 500;
+}
+
+
+
+.plan-price, .change{
+    margin-top: 2px
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 80%;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    box-shadow: 0px 10px 20px -0px hsla(223, 71%, 46%, 0.342);
+}
+
+h1 {
+    font-size: 26px;
+    text-shadow: 0 0 1px;
+}
+
+.main-text {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    margin: 20px;
+}
+
+.music-icon {
+    width: 15%;
+    margin-left: 20px;
+}
+
+.change {
+    justify-content: right;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    text-align: left;
+}
+
+.cancel {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.cancel-text {
+    margin: 20px;
+}
+
+.cancel:hover {
+    color: black;
+    cursor:pointer
+}
+
+button:hover {
+    background-color: mediumslateblue;
+    cursor: pointer;
+}
+
+.change:hover {
+    text-decoration: none;
+    color: mediumslateblue;
+}
